@@ -164,10 +164,10 @@
                       <div class="col-md-4">
                           <!-- <img src="..." alt="..." class="img-thumbnail"> -->
                           <?php foreach ($data_hewan as $key) { ?>
-                          <a href="<?php echo base_url() ?>/home/lelang/<?php echo $key->hewans_id ?>">
+                          <a href="<?php echo base_url() ?>home/posts/<?php echo $key->posts_serial_id ?>">
                               <div class="photo text-center" style="background-color: grey;width:150px;height:150px;margin-top:30px;">
-                                  <p style="color:white;"><?php echo $key->hewans_nama ?> && <?php echo $key->hewans_bid_price ?></p>
-                                  <p style="color:white;">Jumlah : <?php echo $key->hewans_jumlah ?></p>
+                                  <p style="color:white;"><?php echo $key->posts_name ?></p>
+                                  <!-- <p style="color:white;"></p> -->
                               </div>
                           </a>
                           <?php } ?>

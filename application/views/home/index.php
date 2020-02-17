@@ -16,14 +16,14 @@
       <div class="row align-items-center">
         <div class="col-lg-12 mx-auto text-center" data-aos="slide-up">
           <div class="uu_hewan" style="margin-top: 120px;">
-            <img src="<?= base_url('assets/images/bg2.jpg'); ?>" style="height:auto;width:100%;">
+            <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-3pro.jpg" style="height:250px;width:100%;">
 
           </div>
           <hr>
         </div>
         <div class="col-lg-12 mx-auto text-center" data-aos="slide-up">
           <div class="uu_hewan">
-            <img src="<?= base_url('assets/images/bg3.jpg'); ?>" style="height:auto;width:100%;">
+            <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-3pro.jpg" style="height:250px;width:100%;">
 
           </div>
 

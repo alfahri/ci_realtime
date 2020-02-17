@@ -24,7 +24,7 @@ class Mhewan extends CI_Model
 
 	public function get_id($id)
 	{
-		$this->db->where('hewans_id', $id);
+		$this->db->where('posts_serial_id', $id);
 		return $this->db->get($this->table)->row();
 	}
 }
